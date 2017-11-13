@@ -12,16 +12,16 @@ baseurl: "/blockchain" # the subpath of your site, e.g. /blog
 url: "https://fanggio.github.io" # the base hostname & protocol for your site
 
 # Profiles
-facebook_username: randomexample
-github_username: randomexample
-googleplus_username: randomexample
-instagram_username: randomexample
-linkedin_username: randomexample
-periscope_username: randomexample
-reddit_username: u/randomexample
-twitter_username: randomexample
-youtube_username: user/randomexample
-email: damianoloan0@gmail.com
+#facebook_username: randomexample
+#github_username: randomexample
+#googleplus_username: randomexample
+#instagram_username: randomexample
+#linkedin_username: randomexample
+#periscope_username: randomexample
+#reddit_username: u/randomexample
+#twitter_username: randomexample
+#youtube_username: user/randomexample
+#email: damianoloan0@gmail.com
 
 # API keys
 api_keys:
