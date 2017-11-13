@@ -307,7 +307,7 @@ a.button {
 
 div.text-box {
   position: absolute;
-  bottom: 10%;
+  bottom: 1%;
   left: 0;
   width: 100%;
   color: $white-color;
@@ -354,7 +354,7 @@ div.text-box {
     text-align: center;
     font-size: 18rem;
     margin-bottom: 0;
-    padding: 0 1%;
+    padding: 0 5%;
     line-height: 1;
     @extend %ease-in;
 
