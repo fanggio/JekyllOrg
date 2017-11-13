@@ -1,5 +1,5 @@
 <header class="site-header">
-  {% unless page.url == '/' %}<a class="site-title" href="{{ site.baseurl | prepend: site.githuburl }}"><h1>{{ site.titleNickname }}</h1></a>
+  {% unless page.url == '/' %}<a class="site-title" href="{{ site.githubbaseurl | prepend: site.url }}"><h1>{{ site.titleNickname }}</h1></a>
 
   <input id="ctrl" name="ctrl" type="checkbox"></input>
 
