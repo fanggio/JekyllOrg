@@ -307,7 +307,7 @@ a.button {
 
 div.text-box {
   position: absolute;
-  bottom: 10%;
+  bottom: 1%;
   left: 0;
   width: 100%;
   color: $white-color;
@@ -345,7 +345,7 @@ div.text-box {
   div.text-box { padding: 0; }
 
   h1, p {
-    opacity: 0.6;
+    opacity: 0.7;
     margin: 0;
     @extend %ease-in;
     @include media-query($on-mobile) { opacity: 0.8;}
