@@ -4,9 +4,9 @@
   url: /explain/
 #- title: Services
 #  url: /services/
-- title: News
-  url: /blog/index.html
 #- title: Events
 #  url: /events/
 - title: How To
   url: /howTo/
+  - title: News
+  url: /blog/index.html
