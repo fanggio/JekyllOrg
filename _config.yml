@@ -11,7 +11,7 @@ titleNickname: BD
 email: blockchaininfo@fangg.io
 description: Clear Explanations of Blockchain Technology
 baseurl: "/" # the subpath of your site, e.g. /blog
-basegithubUrl: ""
+basegithubUrl: "/blockchain"
 url: "https://fanggio.github.io" # the base hostname & protocol for your site
 githubUrl: "https://fanggio.github.io/blockchain"
 
