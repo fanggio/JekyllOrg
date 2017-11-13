@@ -7,7 +7,7 @@
 
 # Site settings
 title: Blockchain Demystified
-title-nickname: BD
+titleNickname: BD
 email: blockchaininfo@fangg.io
 description: Clear Explanations of Blockchain Technology
 baseurl: "/blockchain" # the subpath of your site, e.g. /blog
