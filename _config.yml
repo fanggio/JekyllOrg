@@ -40,9 +40,6 @@ gems:
   - jekyll-paginate
   - jekyll-mentions
   
-  
-plugins:
-  - jekyll-sitemap
 
 # Pagination
 paginate: 10
