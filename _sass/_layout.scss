@@ -355,7 +355,6 @@ div.text-box {
     font-size: 18rem;
     margin-bottom: 0;
     padding: 0 5%;
-    line-height: 1;
     @extend %ease-in;
 
     @include media-query($on-tablet) { font-size: 14rem; }
