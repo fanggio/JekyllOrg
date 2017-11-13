@@ -8,7 +8,11 @@ permalink: /about/
 <!-- About page introduction -->
 <p class="post-content collection-content">{{ page.introduction }}</p>
 <!-- End about page introduction -->
-
+<p>br</p>
+<p>br</p>
+<p>br</p>
+<p>br</p>
+<p>br</p>
 {% if site.email %}
 <!-- Contact form -->
 <section id="contact">
@@ -19,7 +23,7 @@ permalink: /about/
 
       <input type="email" name="email" placeholder="your email" maxlength="36" pattern="[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+" class="email" required />
 
-      <textarea name="message" placeholder="your message" rows="3" class="message"></textarea>
+      <textarea name="message" placeholder="your message (250 char min)" rows="5" class="message" minlength=250></textarea>
       <input type="hidden" name="_subject" value="Source: {{ site.baseurl | prepend: site.url }} contact form submission" />
       <button type="submit" class="send">ok, send it</button>
 
