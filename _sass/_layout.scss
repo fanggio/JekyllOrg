@@ -345,7 +345,7 @@ div.text-box {
   div.text-box { padding: 0; }
 
   h1, p {
-    opacity: 0.6;
+    opacity: 0.7;
     margin: 0;
     @extend %ease-in;
     @include media-query($on-mobile) { opacity: 0.8;}
@@ -354,7 +354,7 @@ div.text-box {
     text-align: center;
     font-size: 18rem;
     margin-bottom: 0;
-    padding: 0 5%;
+    padding: 0 1%;
     line-height: 1;
     @extend %ease-in;
 
