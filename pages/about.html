@@ -8,36 +8,7 @@ permalink: /about/
 <!-- About page introduction -->
 <p class="post-content collection-content">{{ page.introduction }}</p>
 <!-- End about page introduction -->
-<!-- Team members -->
-{% if site.data.team-members.size > 0 %}
-<section class="team-members">
-  <h2>Our Team</h2>
-  <div class="grid-container">
-    {% for member in site.data.team-members %}
-    {% comment %}Check whether total no. of staff members is odd / even and structure final member accordingly{% endcomment %}
-    {% assign columnMod = forloop.length | modulo:2 %}
-    {% if columnMod == 0 %}
-      {% cycle '<div class="row">', '' %}
-      <!-- Team member card -->
-      {% include staff-card.html columnClass='one-half col' %}<!-- End team member card -->
 
-      {% cycle '', '</div>' %}
-    {% else %}
-      {% unless forloop.last == true %}
-        {% cycle '<div class="row">', '' %}
-        <!-- Team member card -->
-        {% include staff-card.html columnClass='one-half col' %}<!-- End team member card -->
-
-        {% cycle '', '</div>' %}
-      {% else %}
-      <!-- Team member card -->
-        {% include staff-card.html columnClass='one-half col final-col' %}<!-- End team member card -->
-      {% endunless %}
-    {% endif %}
-  {% endfor %}
-  </div>
-</section>
-{% endif %}<!-- End team members -->
 <!-- Careers link -->
 {% if site.data.career-vacancies.size > 0 %}
 <a href="{{ '/careers' | prepend: site.baseurl }}" title="{{ site.title | prepend: 'Careers at '}}" class="careers-link">
