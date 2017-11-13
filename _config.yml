@@ -13,6 +13,7 @@ description: Clear Explanations of Blockchain Technology
 baseurl: "" # the subpath of your site, e.g. /blog
 githubbaseurl: "/blockchain"
 url: "https://fanggio.github.io" # the base hostname & protocol for your site
+cloudbaseurl: "https://blockchain.fangg.io"
 #githubUrl: "https://fanggio.github.io/blockchain"
 
 # Profiles
