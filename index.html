@@ -29,7 +29,7 @@ sitemap:
   <!-- Homepage news selection -->
   <section id="homepage-news">
     <ul class="post-list">
-      <a href="{{ '/blog/index.html' | prepend: site.baseurl }}" title="{{ site.title | prepend: 'Latest News from ' }}">
+      <a href="{{ '/blog/index.html' | prepend: site.baseurl }}" title="{{ site.title | prepend: 'Recent posts from ' }}">
         <h2 class="home-header">Latest News</h2>
       </a>
       {% for post in site.posts | limit:3 %}
