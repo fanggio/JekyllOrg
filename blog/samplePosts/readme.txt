@@ -1,0 +1,1 @@
+sample posts from template
