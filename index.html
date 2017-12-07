@@ -32,7 +32,7 @@ sitemap:
       <a href="{{ '/blog/index.html' | prepend: site.baseurl }}" title="{{ site.title | prepend: 'Recent posts from ' }}">
         <h2 class="home-header">Latest News</h2>
       </a>
-      {% for post in site.posts | limit:3 %}
+      {% for post in site.publishedPosts | limit:3 %}
       <li>
         <a href="https://getpocket.com/save?url={{ post.url | prepend: site.baseurl | prepend: site.url }}&title={{ post.title }}" title="Save to Pocket" target="_blank">
           <span class="pocket-icon">
@@ -56,8 +56,9 @@ sitemap:
       {% endfor %}
     </ul>
 
-    <a href="{{ '/blog/index.html' | prepend: site.baseurl }}" title="{{ site.title | prepend: 'Latest News from ' }}" class="button">See All News</a>
+    <a href="{{ '/blog/index.html' | prepend: site.baseurl }}" title="{{ site.title | prepend: 'Recent posts from ' }}" class="button">See All News</a>
   </section><!-- End homepage news selection -->
+  <!--
   <!-- Homepage services selection -->
   <section id="services-container" class="homepage-services">
     <a href="{{ '/services' | prepend: site.baseurl }}" title="{{ site.title | append: ' Services' }}">
@@ -167,4 +168,5 @@ sitemap:
 
     </ul>
   </section><!-- End homepage issues selection -->
+  -->
 </div>
