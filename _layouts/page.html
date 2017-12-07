@@ -4,6 +4,7 @@ layout: default
 <article class="page">
 
   <header class="page-header">
+        {% include header.html %}
     <div class="mask"></div>
     {% if page.url == '/' %} <img src="{{ page.nickNameName | downcase | append: '.jpg' | prepend: '/images/featured/' | prepend: site.baseurl }}" alt="{{ page.title | append: ' featured image' }}" class="page-hero" />
      {% if page.url == '/' %}<img src="{{ page.nickNameName | downcase | append: '-tn.jpg' | prepend: '/images/featured/' | prepend: site.baseurl }}" alt="{{ page.title | append: ' featured image' }}" class="mobile-hero" />
