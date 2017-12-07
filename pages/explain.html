@@ -7,7 +7,7 @@ permalink: /explain/
 sitemap: true
 related: services resources events
 ---
-<section id="services-container">
+<!--<section id="services-container">
   <ul class="grid-container">
   {% for issue in site.issues %}
     {% unless issue.title == page.title %}
@@ -20,8 +20,8 @@ related: services resources events
       <li class="one-third col">
         {% endif %}
         <div class="tn-container">
-         <!-- <img src="{{ page.title | downcase | append: '-tn.jpg' | prepend: '/images/featured/' | prepend: site.baseurl }}" alt="{{  }}" />
-          --><div class="mask"></div>
+          <img src="{{ page.title | downcase | append: '-tn.jpg' | prepend: '/images/featured/' | prepend: site.baseurl }}" alt="{{  }}" />
+          <div class="mask"></div>
           <div class="text-box">
             <h1>{{ issue.title }}</h1>
             {% if issue.description %}<p>{{ issue.description }}</p>{% endif %}
@@ -32,6 +32,6 @@ related: services resources events
     {% endunless %}
   {% endfor %}
   </ul>
-</section>
+</section>-->
 
 {% include related-sections.html %}
