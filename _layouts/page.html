@@ -9,7 +9,7 @@ layout: default
     <img src="{{ page.nickNameName | downcase | append: '-tn.jpg' | prepend: '/images/featured/' | prepend: site.baseurl }}" alt="{{ page.title | append: ' featured image' }}" class="mobile-hero" />{% endunless %}
     <div class="text-box">
       {% if page.url == '/' %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
-      {% if page.url == '/' %}<h1 class="page-heading">{{ page.title }}</h1>{% endif %}
+      {% if page.url != '/' %}<h1 class="page-heading">{{ page.title }}</h1>{% endif %}
       <p>{{ page.description }}</p>
     </div>
   </header>
