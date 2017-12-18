@@ -4,11 +4,12 @@ layout: default
 <article class="page">
 
   <header class="page-header">     
-    <div class="mask"></div>
-    {% unless page.url != '/' %}<img src="{{ page.nickNameName | downcase | append: '.jpg' | prepend: '/images/featured/' | prepend: site.baseurl }}" alt="{{ page.title | append: ' featured image' }}" class="page-hero" />{% endunless %}
-    {% unless page.url != '/' %}<img src="{{ page.nickNameName | downcase | append: '-tn.jpg' | prepend: '/images/featured/' | prepend: site.baseurl }}" alt="{{ page.title | append: ' featured image' }}" class="mobile-hero" />{% endunless %}
+    {% unless page.url != '/' %}<div class="mask"></div>
+    <img src="{{ page.nickNameName | downcase | append: '.jpg' | prepend: '/images/featured/' | prepend: site.baseurl }}" alt="{{ page.title | append: ' featured image' }}" class="page-hero" />
+    <img src="{{ page.nickNameName | downcase | append: '-tn.jpg' | prepend: '/images/featured/' | prepend: site.baseurl }}" alt="{{ page.title | append: ' featured image' }}" class="mobile-hero" />{% endunless %}
     <div class="text-box">
-      <h1 class="page-title">{{ page.title }}</h1>
+      {% if page.url == '/' %}<h1 class="page-title">{{ page.title }}</h1>{% endif %}
+      {% if page.url == '/' %}<h1 class="page-heading">{{ page.title }}</h1>{% endif %}
       <p>{{ page.description }}</p>
     </div>
   </header>
