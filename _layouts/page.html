@@ -2,12 +2,6 @@
 layout: default
 ---
 <article class="page">
-
-  {% if page.url != '/' %}
-    <h1 class="page-heading">{{ page.title }}</h1>
-    <p>{{ page.description }}</p>
-  {% endif %}
-  
   {% unless page.url != '/' %}<header class="page-header">     
     <div class="mask"></div>
     <img src="{{ page.nickNameName | downcase | append: '.jpg' | prepend: '/images/featured/' | prepend: site.baseurl }}" alt="{{ page.title | append: ' featured image' }}" class="page-hero" />
@@ -19,6 +13,12 @@ layout: default
   </header>{% endunless %}
   <div class="page-content">
     {% include header.html %}
+      {% if page.url != '/' %}
+    <div class="page-heading">
+    <h1 class="page-heading">{{ page.title }}</h1>
+    <h2>{{ page.description }}</h2>
+    </div>
+  {% endif %}
     {{ content }}
   </div>
 
