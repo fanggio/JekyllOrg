@@ -5,7 +5,7 @@ layout: default
 
   <header class="page-header">     
     <div class="mask"></div>
-    {% unless page.url != '/' %} <img src="{{ page.nickNameName | downcase | append: '.jpg' | prepend: '/images/featured/' | prepend: site.baseurl }}" alt="{{ page.title | append: ' featured image' }}" class="page-hero" />
+    {% unless page.url != '/' %}<img src="{{ page.nickNameName | downcase | append: '.jpg' | prepend: '/images/featured/' | prepend: site.baseurl }}" alt="{{ page.title | append: ' featured image' }}" class="page-hero" />
      {% unless page.url != '/' %}<img src="{{ page.nickNameName | downcase | append: '-tn.jpg' | prepend: '/images/featured/' | prepend: site.baseurl }}" alt="{{ page.title | append: ' featured image' }}" class="mobile-hero" />
     <div class="text-box">
       <h1 class="page-title">{{ page.title }}</h1>
