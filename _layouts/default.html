@@ -8,8 +8,9 @@
     <main class="page-content">
         {{ content }}
     </main>
-
+{% if page.title != "birth" %}
     {% include footer.html %}
+    {% endif %}
 
   </body>
 
