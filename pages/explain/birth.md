@@ -4,8 +4,9 @@ title:
 ---
 >It is an absolutely beautiful day and fangg and satoshi are taking a walk in their neighborhood. As they pass the cryptographic gardens, fangg takens an apple from his wallet and gives it to satoshi
 
-satoshi: thanks i was hungry
-fangg: you're welcome.
+###### satoshi: thanks i was hungry.
+
+###### fangg: you're welcome.
 
 fangg: by the way, ive been having a lot of trouble managing my apple deliveries lately.
 
