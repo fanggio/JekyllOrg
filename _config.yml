@@ -32,8 +32,6 @@ cloudbaseurl: "https://blockchain.fangg.io"
 api_keys:
   google: "AIzaSyDz8chsDr5YB4r-oeA44JgaTyWirMZbL58"
 
-#birth
-birth: pages/explain/birth.md
 
 # Build settings
 markdown: kramdown
@@ -57,6 +55,11 @@ jekyll-mentions: https://twitter.com
 
 # Collections
 collections:
+  birth:
+    title: Birth
+    featured-image:
+    permalink: /birth/:path
+    output: true
   services:
     title: Services
     featured-image:
