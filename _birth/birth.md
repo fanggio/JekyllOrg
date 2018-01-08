@@ -1,6 +1,6 @@
 ---
 layout: post
-title:
+title: birth
 ---
 >It is an absolutely beautiful day and fangg and satoshi are taking a walk in their neighborhood. As they pass the cryptographic gardens, fangg takens an apple from his wallet and gives it to satoshi
 
