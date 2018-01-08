@@ -32,6 +32,9 @@ cloudbaseurl: "https://blockchain.fangg.io"
 api_keys:
   google: "AIzaSyDz8chsDr5YB4r-oeA44JgaTyWirMZbL58"
 
+#birth
+birth: pages/explain/birth.md
+
 # Build settings
 markdown: kramdown
 
